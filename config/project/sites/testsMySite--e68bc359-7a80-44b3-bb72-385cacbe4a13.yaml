@@ -1,0 +1,9 @@
+baseUrl: 'http://my-site.com/'
+enabled: true
+handle: testsMySite
+hasUrls: true
+language: en
+name: 'Tests my site'
+primary: true
+siteGroup: 047ae459-9c98-4598-957e-629422a7f583 # My site
+sortOrder: 1

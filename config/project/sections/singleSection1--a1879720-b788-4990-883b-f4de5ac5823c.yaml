@@ -1,0 +1,40 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 55f73b48-362e-42de-8d71-c7fe0f471b0f # Test Simple type single1
+  -
+    uid: 8bec3f30-4ed9-447c-bb51-37282f26f0a5 # NeoContrainer
+handle: singleSection1
+maxAuthors: 1
+name: 'Test Single section 1'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  e60a6482-d53c-435e-912d-240e7b0ae760: # Test my site - FR
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  e68bc359-7a80-44b3-bb72-385cacbe4a13: # Tests my site
+    enabledByDefault: true
+    hasUrls: true
+    template: single-section-1/_entry.twig
+    uriFormat: single-section-1
+  ed00a43e-81c4-49d6-9ebf-9b2609a64443: # Tests my site - RU
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

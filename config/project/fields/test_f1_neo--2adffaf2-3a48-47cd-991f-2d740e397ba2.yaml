@@ -1,0 +1,18 @@
+columnSuffix: null
+handle: test_f1_neo
+instructions: null
+name: 'test f1neo'
+searchable: false
+settings:
+  maxBlocks: null
+  maxLevels: null
+  maxTopBlocks: null
+  minBlocks: null
+  minLevels: null
+  minTopBlocks: null
+  newBlockButtonLabel: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field

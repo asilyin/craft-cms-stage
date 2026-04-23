@@ -1,0 +1,128 @@
+columnSuffix: null
+handle: testnewblock
+instructions: null
+name: testNewBlock
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - d6244a04-74e5-4d40-b8ce-f74a21008856
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - 0a82afee-4b29-43cc-a523-5cdd34ef74e0
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-20T08:11:08+00:00'
+                            9:
+                              - uid
+                              - 2f81b279-70c5-4203-a793-8933b19324c4
+                            12:
+                              - fieldUid
+                              - 6220f0a0-5b4e-47cf-ae2d-37a08e32e02e # Content
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - sub1
+                            2:
+                              - label
+                              - sub1
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-20T08:19:34+00:00'
+                            9:
+                              - uid
+                              - 91dc1991-87f5-495d-9a63-723400f6755c
+                            12:
+                              - fieldUid
+                              - cbb9d1ca-b408-4fd6-843e-3882ac4532fb # testBlockSubtitle
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - sub2
+                            2:
+                              - label
+                              - 'sub 2'
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-20T08:24:51+00:00'
+                            9:
+                              - uid
+                              - f0a55b5b-58d8-4f3b-825a-d162d1ce358a
+                            12:
+                              - fieldUid
+                              - cbb9d1ca-b408-4fd6-843e-3882ac4532fb # testBlockSubtitle
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - blocklink
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-20T08:38:23+00:00'
+                            9:
+                              - uid
+                              - eb17d49c-2fab-471e-be82-bc83962feaf0
+                            12:
+                              - fieldUid
+                              - 19664c4f-9a61-42ac-bf1e-c425e4ac4713 # myLink
+            4:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

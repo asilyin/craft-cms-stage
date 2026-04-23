@@ -1,0 +1,52 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.e68bc359-7a80-44b3-bb72-385cacbe4a13:read' # Tests my site
+  - 'sites.ed00a43e-81c4-49d6-9ebf-9b2609a64443:read' # Tests my site - RU
+  - 'sites.e60a6482-d53c-435e-912d-240e7b0ae760:read' # Test my site - FR
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.a1879720-b788-4990-883b-f4de5ac5823c:read' # Test Single section 1
+  - 'sections.55a4228c-afd6-4b32-ae1e-668ad9a78b0f:read' # My - section
+  - 'sections.deedd015-8a49-4a3f-862b-9b2dd7e3a669:read' # Test composite objects
+  - 'sections.cbfafbed-9efc-4351-8a95-899d008e1075:read' # Test structures section1
+  - 'nestedentryfields.6220f0a0-5b4e-47cf-ae2d-37a08e32e02e:read' # Content
+  - 'nestedentryfields.42480b59-6b29-4f2d-896c-491ce03af675:read' # Matrix content
+  - 'nestedentryfields.e96f059b-fe9e-4acd-90c4-bef92d500846:read' # Matrix With Neo
+  - 'nestedentryfields.c817f919-e93c-44f9-9d5b-256c976a1881:read' # Test matrix with neo
+  - 'categorygroups.8fb5570b-d24b-4f31-b577-b6819aa9f307:read' # Test category group
+  - 'sections.a1879720-b788-4990-883b-f4de5ac5823c:save' # Test Single section 1
+  - 'sections.55a4228c-afd6-4b32-ae1e-668ad9a78b0f:edit' # My - section
+  - 'sections.55a4228c-afd6-4b32-ae1e-668ad9a78b0f:create' # My - section
+  - 'sections.55a4228c-afd6-4b32-ae1e-668ad9a78b0f:save' # My - section
+  - 'sections.55a4228c-afd6-4b32-ae1e-668ad9a78b0f:delete' # My - section
+  - 'sections.deedd015-8a49-4a3f-862b-9b2dd7e3a669:edit' # Test composite objects
+  - 'sections.deedd015-8a49-4a3f-862b-9b2dd7e3a669:create' # Test composite objects
+  - 'sections.deedd015-8a49-4a3f-862b-9b2dd7e3a669:save' # Test composite objects
+  - 'sections.deedd015-8a49-4a3f-862b-9b2dd7e3a669:delete' # Test composite objects
+  - 'sections.cbfafbed-9efc-4351-8a95-899d008e1075:edit' # Test structures section1
+  - 'sections.cbfafbed-9efc-4351-8a95-899d008e1075:create' # Test structures section1
+  - 'sections.cbfafbed-9efc-4351-8a95-899d008e1075:save' # Test structures section1
+  - 'sections.cbfafbed-9efc-4351-8a95-899d008e1075:delete' # Test structures section1
+  - 'nestedentryfields.6220f0a0-5b4e-47cf-ae2d-37a08e32e02e:edit' # Content
+  - 'nestedentryfields.6220f0a0-5b4e-47cf-ae2d-37a08e32e02e:create' # Content
+  - 'nestedentryfields.6220f0a0-5b4e-47cf-ae2d-37a08e32e02e:save' # Content
+  - 'nestedentryfields.6220f0a0-5b4e-47cf-ae2d-37a08e32e02e:delete' # Content
+  - 'nestedentryfields.42480b59-6b29-4f2d-896c-491ce03af675:edit' # Matrix content
+  - 'nestedentryfields.42480b59-6b29-4f2d-896c-491ce03af675:create' # Matrix content
+  - 'nestedentryfields.42480b59-6b29-4f2d-896c-491ce03af675:save' # Matrix content
+  - 'nestedentryfields.42480b59-6b29-4f2d-896c-491ce03af675:delete' # Matrix content
+  - 'nestedentryfields.e96f059b-fe9e-4acd-90c4-bef92d500846:edit' # Matrix With Neo
+  - 'nestedentryfields.e96f059b-fe9e-4acd-90c4-bef92d500846:create' # Matrix With Neo
+  - 'nestedentryfields.e96f059b-fe9e-4acd-90c4-bef92d500846:save' # Matrix With Neo
+  - 'nestedentryfields.e96f059b-fe9e-4acd-90c4-bef92d500846:delete' # Matrix With Neo
+  - 'nestedentryfields.c817f919-e93c-44f9-9d5b-256c976a1881:edit' # Test matrix with neo
+  - 'nestedentryfields.c817f919-e93c-44f9-9d5b-256c976a1881:create' # Test matrix with neo
+  - 'nestedentryfields.c817f919-e93c-44f9-9d5b-256c976a1881:save' # Test matrix with neo
+  - 'nestedentryfields.c817f919-e93c-44f9-9d5b-256c976a1881:delete' # Test matrix with neo
+  - 'categorygroups.8fb5570b-d24b-4f31-b577-b6819aa9f307:edit' # Test category group
+  - 'categorygroups.8fb5570b-d24b-4f31-b577-b6819aa9f307:save' # Test category group
+  - 'categorygroups.8fb5570b-d24b-4f31-b577-b6819aa9f307:delete' # Test category group
+  - 'directive:parseRefs'
+  - 'directive:transform'

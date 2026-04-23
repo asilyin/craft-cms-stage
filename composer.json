@@ -2,8 +2,11 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/cloud": "^3.0.0",
-    "craftcms/cms": "^5.9.0",
+    "craftcms/ckeditor": "4.11.4",
+    "craftcms/cms": "5.9.20",
+    "nystudio107/craft-seomatic": "5.1.21",
+    "smartcat-ai/craft-smartcat-integration": "dev-main",
+    "spicyweb/craft-neo": "5.5.7",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
@@ -16,11 +19,21 @@
       "yiisoft/yii2-composer": true
     },
     "sort-packages": true,
-    "optimize-autoloader": true
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "8.2"
+    }
   },
   "scripts": {
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\""
     ]
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.craftcms.com",
+      "canonical": false
+    }
+  ]
 }

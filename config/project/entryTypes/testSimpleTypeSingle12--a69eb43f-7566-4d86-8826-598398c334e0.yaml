@@ -1,0 +1,36 @@
+color: null
+fieldLayouts:
+  0f62da6f-cb28-4fe6-8cfe-7c75ba655b3b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-06-16T19:12:02+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6220f0a0-5b4e-47cf-ae2d-37a08e32e02e # Content
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f35b8072-6e63-4cff-a265-51e1f0d348b9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f3a00d8f-98ec-410c-863a-57b173c4c61d
+        userCondition: null
+handle: testSimpleTypeSingle12
+hasTitleField: false
+icon: null
+name: 'Test Simple type single1 2'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
