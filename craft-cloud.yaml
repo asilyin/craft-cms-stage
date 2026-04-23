@@ -1,0 +1,15 @@
+# Craft Cloud configuration
+# Docs: https://craftcms.com/knowledge-base/cloud-config
+#
+# This file tells Craft Cloud how to build and run the project.
+# Most Cloud infrastructure settings (db, cache, queue, session, storage)
+# are injected automatically by the craftcms/cloud extension at runtime.
+
+php: "8.3"
+
+# Uncomment and set if the project adds a front-end build pipeline.
+# node: "22"
+# build:
+#   - npm ci
+#   - npm run build
+# artifact-path: web/dist
