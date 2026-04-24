@@ -1,0 +1,23 @@
+# Craft-specific
+/config/license.key
+/storage/*
+!/storage/.gitkeep
+/vendor/*
+
+# Environment
+.env
+.env.*.local
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

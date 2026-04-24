@@ -1,0 +1,13 @@
+Options -Indexes
+Options +FollowSymLinks
+
+# Send the request URI to index.php
+RewriteEngine On
+
+# If the requested file or directory doesn't exist, forward to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.+) index.php?p=$1 [QSA,L]
+
+# Ensure Authorization header is passed
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
