@@ -3,19 +3,10 @@
  * Craft web bootstrap file
  */
 
-// Set path constants
-define('CRAFT_BASE_PATH', dirname(__DIR__));
-define('CRAFT_VENDOR_PATH', CRAFT_BASE_PATH . '/vendor');
+// Load shared bootstrap
+require dirname(__DIR__) . '/bootstrap.php';
 
-// Load Composer's autoloader
-require_once CRAFT_VENDOR_PATH . '/autoload.php';
-
-// Load .env file
-if (file_exists(CRAFT_BASE_PATH . '/.env')) {
-    $dotenv = Dotenv\Dotenv::createImmutable(CRAFT_BASE_PATH);
-    $dotenv->load();
-}
-
-// Run the app
+// Load and run Craft
+/** @var craft\web\Application $app */
 $app = require CRAFT_VENDOR_PATH . '/craftcms/cms/bootstrap/web.php';
 $app->run();

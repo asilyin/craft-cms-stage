@@ -6,14 +6,25 @@
  * list of the available settings in vendor/craftcms/cms/src/config/GeneralConfig.php.
  *
  * @see \craft\config\GeneralConfig
+ * @link https://craftcms.com/docs/5.x/reference/config/general.html
  */
 
 use craft\config\GeneralConfig;
 use craft\helpers\App;
 
 return GeneralConfig::create()
-    ->cpTrigger(getenv('CRAFT_CP_TRIGGER') ?: 'admin')
+    // Set the default week start day for date pickers (0 = Sunday, 1 = Monday, etc.)
     ->defaultWeekStartDay(1)
-    ->devMode(App::env('CRAFT_ENVIRONMENT') !== 'production')
-    ->allowAdminChanges(App::env('CRAFT_ENVIRONMENT') !== 'production')
-    ->disallowRobots(App::env('CRAFT_ENVIRONMENT') !== 'production');
+    // Prevent generated URLs from including "index.php"
+    ->omitScriptNameInUrls()
+    // Preload Single entries as Twig variables
+    ->preloadSingles()
+    // Prevent user enumeration attacks
+    ->preventUserEnumeration()
+    // Enable the Twig sandbox for system messages, etc.
+    ->enableTwigSandbox()
+    // Set the @webroot alias so the clear-caches command knows where to find CP resources
+    ->aliases([
+        '@webroot' => dirname(__DIR__) . '/web',
+    ])
+;

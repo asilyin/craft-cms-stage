@@ -1,13 +1,9 @@
-Options -Indexes
-Options +FollowSymLinks
+<IfModule mod_rewrite.c>
+    RewriteEngine On
 
-# Send the request URI to index.php
-RewriteEngine On
-
-# If the requested file or directory doesn't exist, forward to index.php
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (.+) index.php?p=$1 [QSA,L]
-
-# Ensure Authorization header is passed
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+    # Route 404s to index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} !^/(favicon\.ico|apple-touch-icon.*\.png)$ [NC]
+    RewriteRule (.+) index.php [L]
+</IfModule>
