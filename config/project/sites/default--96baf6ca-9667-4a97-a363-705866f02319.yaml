@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: SC-Stage
+primary: true
+siteGroup: 45dee176-325e-426d-b3d5-cf9ece27951c # SC-Stage
+sortOrder: 1
