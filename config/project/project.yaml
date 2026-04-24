@@ -1,12 +1,14 @@
-dateModified: 1777019792
+dateModified: 1777020661
 email:
   fromEmail: a.ilyin@smartcat.ai
   fromName: SC-Stage
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    42f9cc74-294f-407e-9610-7f0e31006819: 'Public Schema' # Public Schema
     45dee176-325e-426d-b3d5-cf9ece27951c: SC-Stage # SC-Stage
     96baf6ca-9667-4a97-a363-705866f02319: SC-Stage # SC-Stage
+    cd9cf8db-8a14-4847-9cfe-88f0c996677a: 'test link no label' # test link no label
 plugins:
   ckeditor:
     edition: standard
@@ -15,6 +17,7 @@ plugins:
   neo:
     edition: standard
     enabled: true
+    licenseKey: KRQ3H5361TAMB1HEPBF2TZQZ
     schemaVersion: 5.1.0.1
 system:
   edition: solo
