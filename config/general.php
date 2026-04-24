@@ -9,6 +9,7 @@
  */
 
 use craft\config\GeneralConfig;
+use craft\helpers\App;
 
 return GeneralConfig::create()
     ->cpTrigger(getenv('CRAFT_CP_TRIGGER') ?: 'admin')

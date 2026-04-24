@@ -9,6 +9,7 @@
  */
 
 use craft\config\DbConfig;
+use craft\helpers\App;
 
 return DbConfig::create()
     ->driver(App::env('CRAFT_DB_DRIVER') ?: 'mysql')
