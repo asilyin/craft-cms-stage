@@ -1,9 +1,0 @@
-baseUrl: $TEST_MY_SITE_FR_URL
-enabled: '1'
-handle: testMySiteFr
-hasUrls: true
-language: fr
-name: 'Test my site - FR'
-primary: false
-siteGroup: 047ae459-9c98-4598-957e-629422a7f583 # My site
-sortOrder: 3

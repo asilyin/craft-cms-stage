@@ -1,9 +1,0 @@
-baseUrl: $TESTS_MY_SITE_RU_URL
-enabled: '1'
-handle: testsMySiteRu
-hasUrls: true
-language: ru
-name: 'Tests my site - RU'
-primary: false
-siteGroup: 047ae459-9c98-4598-957e-629422a7f583 # My site
-sortOrder: 2

@@ -1,9 +1,0 @@
-baseUrl: $SITE_TEST_URL
-enabled: '0'
-handle: siteTest
-hasUrls: true
-language: rm
-name: 'Site -test'
-primary: false
-siteGroup: 047ae459-9c98-4598-957e-629422a7f583 # My site
-sortOrder: 4
