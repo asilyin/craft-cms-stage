@@ -1,0 +1,86 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  9fc550f3-dbf0-4d0b-a349-0c6b68113dbc:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-04-24T12:08:06+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4202c324-d9f1-4b4b-9794-f01180dc4a7d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T12:09:30+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: e281e60f-7643-4291-8a93-18558a8aa2ab # test complex Matrix A
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 526a19ac-f28c-4ebb-a81f-b77af1759b73
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T12:09:42+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: be02fa98-e0c0-453d-b484-f02c2eaabeac # test plain text field
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9437e9c2-55a8-45da-8368-2e2b92ddd4af
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 320def74-944d-4a65-ba91-1079d9480dc2
+        userCondition: null
+    thumbFieldKey: null
+handle: testComplexMatrixContainer1
+hasTitleField: true
+icon: null
+name: 'test complex Matrix Container 1'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

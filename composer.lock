@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72c3b23aa68fc44b1d5289787196d00b",
+    "content-hash": "3e7dcebb6de7d9646d9f29ccc40f796a",
     "packages": [
         {
             "name": "99designs/http-signatures",
@@ -6067,6 +6067,65 @@
             "time": "2020-12-15T21:32:01+00:00"
         },
         {
+            "name": "smartcat-ai/craft-smartcat-integration",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smartcatai/craftcms.git",
+                "reference": "1d972f3311757da011a1efb7ad974d0e7145360b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smartcatai/craftcms/zipball/1d972f3311757da011a1efb7ad974d0e7145360b",
+                "reference": "1d972f3311757da011a1efb7ad974d0e7145360b",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.3.0"
+            },
+            "default-branch": true,
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Smartcat Integration",
+                "class": "smartcat\\smartcatintegration\\SmartcatIntegration",
+                "handle": "smartcat-integration",
+                "developer": "Smartcat",
+                "changelogUrl": "https://raw.githubusercontent.com/smartcat/craft-smartcat-integration/master/CHANGELOG.md",
+                "developerUrl": "https://smartcat.com",
+                "documentationUrl": "https://github.com/smartcat/craft-smartcat-integration/blob/master/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "smartcat\\smartcatintegration\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Smartcat",
+                    "homepage": "https://smartcat.com"
+                }
+            ],
+            "description": "Smartcat Integration plugin for Craft CMS",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "integration",
+                "smartcat"
+            ],
+            "support": {
+                "docs": "https://github.com/smartcat/craft-smartcat-integration/blob/master/README.md",
+                "issues": "https://github.com/smartcat/craft-smartcat-integration/issues",
+                "source": "https://github.com/smartcatai/craftcms/tree/main"
+            },
+            "time": "2026-04-06T11:57:44+00:00"
+        },
+        {
             "name": "spicyweb/craft-neo",
             "version": "5.5.7",
             "source": {
@@ -10548,7 +10607,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "smartcat-ai/craft-smartcat-integration": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {},

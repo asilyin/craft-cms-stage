@@ -1,0 +1,53 @@
+columnSuffix: null
+handle: testComplexBlockB
+instructions: null
+name: 'test complex Block B'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 4cf06a9b-39b5-4850-ab9f-689914dd457f
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - 9ceae90b-50c9-41e3-b3ef-f2930b39cbf9
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-24T13:08:30+00:00'
+                            9:
+                              - uid
+                              - edea7dba-f2f8-4241-80f8-5ef3f6be96e5
+                            12:
+                              - fieldUid
+                              - 313bc641-6f72-425c-85bd-1d0d22aa0bd0 # test complex Block A
+            4:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

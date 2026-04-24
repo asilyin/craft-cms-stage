@@ -1,0 +1,90 @@
+columnSuffix: null
+handle: testContentBlockLinkText
+instructions: null
+name: 'test content block Link_Text'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 46618943-3eb9-46b0-a08e-ee5757fc079e
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    1:
+                      - uid
+                      - 8e774702-c4c9-4b8c-8338-f63cdef3798f
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-24T10:06:35+00:00'
+                            9:
+                              - uid
+                              - e30ea9e3-c447-452a-89f7-d0100c24ce05
+                            12:
+                              - fieldUid
+                              - c3cb561e-e23a-47d9-af71-a30c230a354e # test link with label
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-24T10:06:35+00:00'
+                            9:
+                              - uid
+                              - 9f0eed5e-c880-436e-86d6-fbe839304d24
+                            12:
+                              - fieldUid
+                              - cd9cf8db-8a14-4847-9cfe-88f0c996677a # test link no label
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-24T10:06:35+00:00'
+                            9:
+                              - uid
+                              - 9b6483b0-d74c-4ed1-9e90-0d5b42fbfbf0
+                            12:
+                              - fieldUid
+                              - be02fa98-e0c0-453d-b484-f02c2eaabeac # test plain text field
+            4:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

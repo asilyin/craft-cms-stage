@@ -1,0 +1,29 @@
+isPublic: false
+name: Smartcat
+scope:
+  - 'sites.96baf6ca-9667-4a97-a363-705866f02319:read' # test Site EN
+  - 'sites.be982354-4c64-4669-98ff-e365f076a68a:read' # test Site RU
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91:read' # test Channel Section
+  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:read' # test rich Editor FullData
+  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:read' # test rich Editor NonFull Data
+  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:read' # test Matrix
+  - 'usergroups.solo:read'
+  - 'sections.d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91:edit' # test Channel Section
+  - 'sections.d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91:create' # test Channel Section
+  - 'sections.d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91:save' # test Channel Section
+  - 'sections.d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91:delete' # test Channel Section
+  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:edit' # test rich Editor FullData
+  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:create' # test rich Editor FullData
+  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:save' # test rich Editor FullData
+  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:delete' # test rich Editor FullData
+  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:edit' # test rich Editor NonFull Data
+  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:create' # test rich Editor NonFull Data
+  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:save' # test rich Editor NonFull Data
+  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:delete' # test rich Editor NonFull Data
+  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:edit' # test Matrix
+  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:create' # test Matrix
+  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:save' # test Matrix
+  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:delete' # test Matrix

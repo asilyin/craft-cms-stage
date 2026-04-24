@@ -1,0 +1,80 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: 56be00e1-7fb1-4115-b92e-97ed56d35b6a # test page with RichContent1
+field: 7e03e46c-1690-4855-b905-699ebe51e56b # test neo field
+fieldLayouts:
+  027ffb3b-bf43-416a-bb14-4ed462fc67d7:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-24T10:11:44+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: b6e7170d-fb64-4551-b12a-f5ebf85080bd # test rich Editor NonFull Data
+            handle: desc
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e9e3032d-1549-4f6e-9ee3-fb4ed8c6a4e3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T10:11:44+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a2df6d4d-e207-45c3-98bc-c71da8738c1e # test rich Editor FullData
+            handle: body_content
+            instructions: null
+            label: 'body Content'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dbc4ab5c-29f9-4c3f-ad2e-a69a1d46ae9d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T10:11:44+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a2df6d4d-e207-45c3-98bc-c71da8738c1e # test rich Editor FullData
+            handle: footer_content
+            instructions: null
+            label: 'footer Content'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a91fd3c8-1466-413f-9c0c-39a9a6486699
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fea8438b-b74b-4a0f-9bbd-648b44a8d654
+        userCondition: null
+    thumbFieldKey: null
+group: null
+groupChildBlockTypes: true
+handle: testPageWithRichcontent1
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'test page with RichContent1'
+topLevel: true

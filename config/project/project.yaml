@@ -1,14 +1,39 @@
-dateModified: 1777020661
+dateModified: 1777036474
 email:
   fromEmail: a.ilyin@smartcat.ai
   fromName: SC-Stage
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    5fd0d4c2-8eac-4199-b22b-3e1ab1035592: 'matrix With ContentBlock Container' # matrix With ContentBlock Container
+    6e18609b-bf1f-474e-b177-f9316d5ab916: 'test complex Matrix Container 1' # test complex Matrix Container 1
+    7e03e46c-1690-4855-b905-699ebe51e56b: 'test neo field' # test neo field
+    09b173ed-f580-4ac9-a440-a7fb0e949a59: 'test content block Link_Text' # test content block Link_Text
+    9f062eaf-c81c-4da2-8256-77c8046019e6: 'test Complex Block Container' # test Complex Block Container
     42f9cc74-294f-407e-9610-7f0e31006819: 'Public Schema' # Public Schema
     45dee176-325e-426d-b3d5-cf9ece27951c: SC-Stage # SC-Stage
-    96baf6ca-9667-4a97-a363-705866f02319: SC-Stage # SC-Stage
+    56be00e1-7fb1-4115-b92e-97ed56d35b6a: 'test page with RichContent1' # test page with RichContent1
+    91e9487e-8d45-4dd1-a04d-e51b76c70392: 'matrix with content block' # matrix with content block
+    96baf6ca-9667-4a97-a363-705866f02319: 'test Site EN' # test Site EN
+    313bc641-6f72-425c-85bd-1d0d22aa0bd0: 'test complex Block A' # test complex Block A
+    0417f0f0-3429-4c5b-b71c-02bbcb2d4545: 'test Matrix' # test Matrix
+    a2df6d4d-e207-45c3-98bc-c71da8738c1e: 'test rich Editor FullData' # test rich Editor FullData
+    b6e7170d-fb64-4551-b12a-f5ebf85080bd: 'test rich Editor NonFull Data' # test rich Editor NonFull Data
+    b9e4b409-e3a2-4b5a-8462-1c572af640b3: 'test complex Matrix B' # test complex Matrix B
+    b20cb2b7-fe4b-4048-b640-d78ef1aec41c: 'test page with RichContent1' # test page with RichContent1
+    b372f809-ce0d-4d12-8145-50bfcd945f47: Smartcat # Smartcat
+    be02fa98-e0c0-453d-b484-f02c2eaabeac: 'test plain text field' # test plain text field
+    be982354-4c64-4669-98ff-e365f076a68a: 'test Site RU' # test Site RU
+    c3cb561e-e23a-47d9-af71-a30c230a354e: 'test link with label' # test link with label
+    c15a68e6-4524-493d-98aa-8fcacc7b82a5: 'test block Container' # test block Container
+    c31c2492-9c6d-494a-ace0-e2068ef35a27: 'test Matrix Container' # test Matrix Container
     cd9cf8db-8a14-4847-9cfe-88f0c996677a: 'test link no label' # test link no label
+    d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91: 'test Channel Section' # test Channel Section
+    d9e0c7cb-3701-4825-8b52-50bfe6106114: 'test complex Matrix Container 2' # test complex Matrix Container 2
+    d77bc11c-52ee-4954-8ef1-9489dddb1bab: 'test neo Container' # test neo Container
+    dff94667-97f1-4ff2-951b-103f60010936: 'test complex Block B' # test complex Block B
+    e281e60f-7643-4291-8a93-18558a8aa2ab: 'test complex Matrix A' # test complex Matrix A
+    ea065799-59eb-495d-9d84-d0fb4dd9d055: 'test Matrix Container' # test Matrix Container
 plugins:
   ckeditor:
     edition: standard
@@ -19,6 +44,10 @@ plugins:
     enabled: true
     licenseKey: KRQ3H5361TAMB1HEPBF2TZQZ
     schemaVersion: 5.1.0.1
+  smartcat-integration:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

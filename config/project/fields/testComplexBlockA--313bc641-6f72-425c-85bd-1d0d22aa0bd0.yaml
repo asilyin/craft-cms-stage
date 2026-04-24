@@ -1,0 +1,70 @@
+columnSuffix: null
+handle: testComplexBlockA
+instructions: null
+name: 'test complex Block A'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - c43c271e-c172-4915-86eb-0b540963eacd
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    1:
+                      - uid
+                      - e56e41e1-acd0-4e2f-8d5f-6306563fd2f3
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-24T13:07:55+00:00'
+                            9:
+                              - uid
+                              - 901e278d-4fae-4ed3-9332-9432363c5d90
+                            12:
+                              - fieldUid
+                              - e281e60f-7643-4291-8a93-18558a8aa2ab # test complex Matrix A
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-24T13:07:55+00:00'
+                            9:
+                              - uid
+                              - 19923bc1-89a1-4885-a58f-ae030c9a5efb
+                            12:
+                              - fieldUid
+                              - 91e9487e-8d45-4dd1-a04d-e51b76c70392 # matrix with content block
+            4:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

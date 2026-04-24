@@ -1,0 +1,40 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: ea065799-59eb-495d-9d84-d0fb4dd9d055 # test Matrix Container
+  -
+    uid: d77bc11c-52ee-4954-8ef1-9489dddb1bab # test neo Container
+  -
+    uid: 56be00e1-7fb1-4115-b92e-97ed56d35b6a # test page with RichContent1
+  -
+    uid: 6e18609b-bf1f-474e-b177-f9316d5ab916 # test complex Matrix Container 1
+  -
+    uid: d9e0c7cb-3701-4825-8b52-50bfe6106114 # test complex Matrix Container 2
+  -
+    uid: 5fd0d4c2-8eac-4199-b22b-3e1ab1035592 # matrix With ContentBlock Container
+  -
+    uid: c15a68e6-4524-493d-98aa-8fcacc7b82a5 # test block Container
+  -
+    uid: 9f062eaf-c81c-4da2-8256-77c8046019e6 # test Complex Block Container
+handle: testChannelSection
+maxAuthors: 1
+name: 'test Channel Section'
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  96baf6ca-9667-4a97-a363-705866f02319: # test Site EN
+    enabledByDefault: true
+    hasUrls: true
+    template: test-channel-section/_entry.twig
+    uriFormat: 'test-channel-section/{slug}'
+  be982354-4c64-4669-98ff-e365f076a68a: # test Site RU
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel

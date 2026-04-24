@@ -1,0 +1,45 @@
+columnSuffix: null
+handle: testComplexMatrixB
+instructions: null
+name: 'test complex Matrix B'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - ea065799-59eb-495d-9d84-d0fb4dd9d055 # test Matrix Container
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 6e18609b-bf1f-474e-b177-f9316d5ab916 # test complex Matrix Container 1
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - d9e0c7cb-3701-4825-8b52-50bfe6106114 # test complex Matrix Container 2
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

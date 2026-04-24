@@ -1,0 +1,9 @@
+baseUrl: $TEST_SITE_RU_URL
+enabled: '1'
+handle: testSiteRu
+hasUrls: true
+language: ru
+name: 'test Site RU'
+primary: false
+siteGroup: 45dee176-325e-426d-b3d5-cf9ece27951c # SC-Stage
+sortOrder: 2

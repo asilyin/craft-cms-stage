@@ -1,0 +1,102 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  b887b8f3-78c6-4f7b-bcab-f0bc96904d7f:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-04-24T10:07:53+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: title
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 94d9349b-82e1-4be8-8b35-8c937b8160fd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T10:11:44+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: b6e7170d-fb64-4551-b12a-f5ebf85080bd # test rich Editor NonFull Data
+            handle: desc
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a1672596-6785-4cb3-9688-1d53e1e467ef
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T10:11:44+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a2df6d4d-e207-45c3-98bc-c71da8738c1e # test rich Editor FullData
+            handle: body_content
+            instructions: null
+            label: 'body Content'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 09cfe5d7-dd87-475c-ab07-baf7e80aa979
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T10:11:44+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a2df6d4d-e207-45c3-98bc-c71da8738c1e # test rich Editor FullData
+            handle: footer_content
+            instructions: null
+            label: 'footer Content'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c206600-5334-412c-987b-68b08ae90a57
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a1a3773f-7c75-446d-a402-9136a61d0cae
+        userCondition: null
+    thumbFieldKey: null
+handle: testPageWithRichcontent1
+hasTitleField: true
+icon: null
+name: 'test page with RichContent1'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'
