@@ -1,12 +1,14 @@
-dateModified: 1777036474
+dateModified: 1777282531
 email:
   fromEmail: a.ilyin@smartcat.ai
   fromName: SC-Stage
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    04d6409a-f115-4b26-aed7-3c134dece288: 'text Matrix translated per Language' # text Matrix translated per Language
     5fd0d4c2-8eac-4199-b22b-3e1ab1035592: 'matrix With ContentBlock Container' # matrix With ContentBlock Container
     6e18609b-bf1f-474e-b177-f9316d5ab916: 'test complex Matrix Container 1' # test complex Matrix Container 1
+    6f803028-162a-4eea-9092-b7fef7c797d4: 'test Entity translated per Language' # test Entity translated per Language
     7e03e46c-1690-4855-b905-699ebe51e56b: 'test neo field' # test neo field
     09b173ed-f580-4ac9-a440-a7fb0e949a59: 'test content block Link_Text' # test content block Link_Text
     9f062eaf-c81c-4da2-8256-77c8046019e6: 'test Complex Block Container' # test Complex Block Container
@@ -27,6 +29,7 @@ meta:
     c3cb561e-e23a-47d9-af71-a30c230a354e: 'test link with label' # test link with label
     c15a68e6-4524-493d-98aa-8fcacc7b82a5: 'test block Container' # test block Container
     c31c2492-9c6d-494a-ace0-e2068ef35a27: 'test Matrix Container' # test Matrix Container
+    ca9d6203-aa37-4163-84b2-1a4f53e25a1a: 'text translated per Language' # text translated per Language
     cd9cf8db-8a14-4847-9cfe-88f0c996677a: 'test link no label' # test link no label
     d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91: 'test Channel Section' # test Channel Section
     d9e0c7cb-3701-4825-8b52-50bfe6106114: 'test complex Matrix Container 2' # test complex Matrix Container 2

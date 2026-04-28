@@ -17,6 +17,8 @@ entryTypes:
     uid: c15a68e6-4524-493d-98aa-8fcacc7b82a5 # test block Container
   -
     uid: 9f062eaf-c81c-4da2-8256-77c8046019e6 # test Complex Block Container
+  -
+    uid: 6f803028-162a-4eea-9092-b7fef7c797d4 # test Entity translated per Language
 handle: testChannelSection
 maxAuthors: 1
 name: 'test Channel Section'
