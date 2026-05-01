@@ -1,0 +1,48 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: e3cee61c-cd13-485f-9a2d-c41302713fab # neo propAll
+fieldLayouts:
+  70b03752-9429-4b43-87bd-f9f1554073d1:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-30T13:04:17+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a0761fc1-d06e-401d-9fdb-6414967991f5 # text eachSite
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: de28ac8f-62a3-4a65-afd5-146f86890e3b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 202154d5-b198-41d0-9a9d-41f7feac9433
+        userCondition: null
+    thumbFieldKey: null
+group: null
+groupChildBlockTypes: true
+handle: neoBlockInline
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'neoBlock inline'
+topLevel: true

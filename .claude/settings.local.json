@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(composer --version)",
+      "Bash(php --version)",
+      "Bash(composer install *)",
+      "Bash(grep -n -iE '^\\(CREATE TABLE|CREATE SCHEMA|\\\\\\\\connect|SET search_path|CREATE DATABASE|ALTER DATABASE\\)' C:/Smartcat/craft-cms-stage/db/backup.v1.sql)",
+      "Bash(php -m)",
+      "Bash(php --ini)",
+      "Bash(php -r \"echo ini_get\\('extension_dir'\\);\")",
+      "Bash(docker exec *)"
+    ]
+  }
+}

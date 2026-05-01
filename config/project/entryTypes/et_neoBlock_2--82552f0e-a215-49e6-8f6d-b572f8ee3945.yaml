@@ -1,0 +1,58 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  48f6687e-0381-41f9-8530-03de7a408c04:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a0761fc1-d06e-401d-9fdb-6414967991f5 # text eachSite
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 38677780-9b92-44d7-be71-2cc0290f6bb2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: f46d09fa-f3a8-4bdf-a162-0c3f0f70f520 # text none
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 51f72311-b0c6-4db4-bede-ad7a05a13ab7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1700cc60-c21e-44c9-b3ae-bbd474fed06e
+        userCondition: null
+    thumbFieldKey: null
+handle: et_neoBlock_2
+hasTitleField: false
+icon: null
+name: 'et neoBlock 2'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

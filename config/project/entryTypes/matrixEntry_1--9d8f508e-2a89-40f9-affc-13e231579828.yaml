@@ -1,0 +1,42 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  595c6e84-8814-4e76-805a-6e9703ede17e:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a0761fc1-d06e-401d-9fdb-6414967991f5 # text eachSite
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: de5f17af-9c85-4724-b751-c18bcbd93482
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e1929181-0bb2-49d1-b8ac-0aaa8eefffde
+        userCondition: null
+    thumbFieldKey: null
+handle: matrixEntry_1
+hasTitleField: false
+icon: null
+name: 'matrixEntry 1'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

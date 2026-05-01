@@ -1,0 +1,40 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: e25271fa-951d-467f-b4e1-191a39740e1c # entry 1
+  -
+    uid: b95204a2-9973-4f36-a910-805fdb19b1f6 # entry 2
+  -
+    uid: a0fe6f8b-961f-45c9-bd19-12261b781fa7 # entry 3
+  -
+    uid: 3f81e692-edeb-45c0-972f-cd5f48f1837b # entry 4
+  -
+    uid: e9c0b2c8-a82d-4ab0-945e-b6b666607e58 # entry 5
+  -
+    uid: 89992a55-e9e9-4428-ba0e-9a70866f4a43 # entry 6
+  -
+    uid: 93efb17b-e67e-4a30-8d33-0b1db09880fc # entry 7
+  -
+    uid: 5860fec9-570a-42ae-9f5e-c5f7ac6e5a87 # entry 8
+handle: tt_section
+maxAuthors: 1
+name: 'tt section'
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  96baf6ca-9667-4a97-a363-705866f02319: # test Site EN
+    enabledByDefault: true
+    hasUrls: true
+    template: tt-section/_entry.twig
+    uriFormat: 'tt-section/{slug}'
+  be982354-4c64-4669-98ff-e365f076a68a: # test Site RU
+    enabledByDefault: true
+    hasUrls: true
+    template: tt-section/_entry.twig
+    uriFormat: 'tt-section/{slug}'
+type: channel

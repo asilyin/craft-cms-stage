@@ -1,0 +1,37 @@
+columnSuffix: null
+handle: matrix_propNone
+instructions: null
+name: 'matrix propNone'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 9d8f508e-2a89-40f9-affc-13e231579828 # matrixEntry 1
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 09a1e822-9cc7-47cd-82da-3e414db36adf # matrixEntry 2
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: none
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
