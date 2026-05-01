@@ -1,42 +1,50 @@
-dateModified: 1777282531
+dateModified: 1777554258
 email:
   fromEmail: a.ilyin@smartcat.ai
   fromName: SC-Stage
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    04d6409a-f115-4b26-aed7-3c134dece288: 'text Matrix translated per Language' # text Matrix translated per Language
-    5fd0d4c2-8eac-4199-b22b-3e1ab1035592: 'matrix With ContentBlock Container' # matrix With ContentBlock Container
-    6e18609b-bf1f-474e-b177-f9316d5ab916: 'test complex Matrix Container 1' # test complex Matrix Container 1
-    6f803028-162a-4eea-9092-b7fef7c797d4: 'test Entity translated per Language' # test Entity translated per Language
-    7e03e46c-1690-4855-b905-699ebe51e56b: 'test neo field' # test neo field
-    09b173ed-f580-4ac9-a440-a7fb0e949a59: 'test content block Link_Text' # test content block Link_Text
-    9f062eaf-c81c-4da2-8256-77c8046019e6: 'test Complex Block Container' # test Complex Block Container
+    0fdb36ee-0c1b-4033-99d2-4bd6de824cf0: 'neoBlock 3' # neoBlock 3
+    1dd44912-9b20-407c-a395-003f9ead4668: link # link
+    1e67c2e4-8afa-4ed8-a271-865f4d83498b: 'neoBlock 1' # neoBlock 1
+    3f81e692-edeb-45c0-972f-cd5f48f1837b: 'entry 4' # entry 4
+    6ca72484-88f8-4d39-98c3-804d88ec9e38: 'neo propNone' # neo propNone
+    6d5da91b-f97b-4f15-b664-bc1e30ee549a: 'richtext full' # richtext full
+    7cad947f-8d4f-42ed-b422-b09b0ee0978d: 'text eachLang' # text eachLang
+    8a32ba6b-5159-440f-9067-35e73e7b7e6f: 'matrix propAll' # matrix propAll
+    09a1e822-9cc7-47cd-82da-3e414db36adf: 'matrixEntry 2' # matrixEntry 2
+    9d8f508e-2a89-40f9-affc-13e231579828: 'matrixEntry 1' # matrixEntry 1
+    0042b8fb-5f49-4cd1-a003-80b8311afe8d: 'et neoBlock 1' # et neoBlock 1
     42f9cc74-294f-407e-9610-7f0e31006819: 'Public Schema' # Public Schema
     45dee176-325e-426d-b3d5-cf9ece27951c: SC-Stage # SC-Stage
-    56be00e1-7fb1-4115-b92e-97ed56d35b6a: 'test page with RichContent1' # test page with RichContent1
-    91e9487e-8d45-4dd1-a04d-e51b76c70392: 'matrix with content block' # matrix with content block
+    81c56b28-42ff-4f46-820f-659820456750: 'link none' # link none
+    93efb17b-e67e-4a30-8d33-0b1db09880fc: 'entry 7' # entry 7
     96baf6ca-9667-4a97-a363-705866f02319: 'test Site EN' # test Site EN
-    313bc641-6f72-425c-85bd-1d0d22aa0bd0: 'test complex Block A' # test complex Block A
-    0417f0f0-3429-4c5b-b71c-02bbcb2d4545: 'test Matrix' # test Matrix
-    a2df6d4d-e207-45c3-98bc-c71da8738c1e: 'test rich Editor FullData' # test rich Editor FullData
-    b6e7170d-fb64-4551-b12a-f5ebf85080bd: 'test rich Editor NonFull Data' # test rich Editor NonFull Data
-    b9e4b409-e3a2-4b5a-8462-1c572af640b3: 'test complex Matrix B' # test complex Matrix B
-    b20cb2b7-fe4b-4048-b640-d78ef1aec41c: 'test page with RichContent1' # test page with RichContent1
+    5860fec9-570a-42ae-9f5e-c5f7ac6e5a87: 'entry 8' # entry 8
+    23998c97-074c-4d61-852a-0c583e35ab1a: 'richtext full none' # richtext full none
+    44174d7d-3386-43f1-b8e7-86d0c5d81e5f: 'neoBlock 3' # neoBlock 3
+    82552f0e-a215-49e6-8f6d-b572f8ee3945: 'et neoBlock 2' # et neoBlock 2
+    89992a55-e9e9-4428-ba0e-9a70866f4a43: 'entry 6' # entry 6
+    a0fe6f8b-961f-45c9-bd19-12261b781fa7: 'entry 3' # entry 3
+    a0761fc1-d06e-401d-9fdb-6414967991f5: 'text eachSite' # text eachSite
+    a8602698-815a-4e98-aac9-8cf009fe660c: 'tt section' # tt section
+    ae217099-da20-47e6-a593-72c9ad730c87: 'neoBlock inline' # neoBlock inline
+    b0a0150a-c6ef-4819-af68-a0bb1d91ce62: 'neoBlock 2' # neoBlock 2
+    b9e93a91-f408-4b66-8b43-f3769cc7804c: 'richtext raw none' # richtext raw none
+    b79c810b-5812-4edb-9f94-4e3627a98462: 'et neoBlock 3' # et neoBlock 3
     b372f809-ce0d-4d12-8145-50bfcd945f47: Smartcat # Smartcat
-    be02fa98-e0c0-453d-b484-f02c2eaabeac: 'test plain text field' # test plain text field
+    b95204a2-9973-4f36-a910-805fdb19b1f6: 'entry 2' # entry 2
     be982354-4c64-4669-98ff-e365f076a68a: 'test Site RU' # test Site RU
-    c3cb561e-e23a-47d9-af71-a30c230a354e: 'test link with label' # test link with label
-    c15a68e6-4524-493d-98aa-8fcacc7b82a5: 'test block Container' # test block Container
-    c31c2492-9c6d-494a-ace0-e2068ef35a27: 'test Matrix Container' # test Matrix Container
-    ca9d6203-aa37-4163-84b2-1a4f53e25a1a: 'text translated per Language' # text translated per Language
-    cd9cf8db-8a14-4847-9cfe-88f0c996677a: 'test link no label' # test link no label
+    bea06695-6c64-44ad-9323-7fe260755849: 'matrix propNone' # matrix propNone
+    c5015b93-7e60-4cc4-aa0f-ed6bfa9c7430: 'neoBlock 1' # neoBlock 1
     d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91: 'test Channel Section' # test Channel Section
-    d9e0c7cb-3701-4825-8b52-50bfe6106114: 'test complex Matrix Container 2' # test complex Matrix Container 2
-    d77bc11c-52ee-4954-8ef1-9489dddb1bab: 'test neo Container' # test neo Container
-    dff94667-97f1-4ff2-951b-103f60010936: 'test complex Block B' # test complex Block B
-    e281e60f-7643-4291-8a93-18558a8aa2ab: 'test complex Matrix A' # test complex Matrix A
-    ea065799-59eb-495d-9d84-d0fb4dd9d055: 'test Matrix Container' # test Matrix Container
+    e3cee61c-cd13-485f-9a2d-c41302713fab: 'neo propAll' # neo propAll
+    e9c0b2c8-a82d-4ab0-945e-b6b666607e58: 'entry 5' # entry 5
+    e54f5b08-935c-4a25-b9a6-95c3113d31ac: 'cb 1' # cb 1
+    e25271fa-951d-467f-b4e1-191a39740e1c: 'entry 1' # entry 1
+    f10f92d8-fab4-4f33-989b-241cc89c2e75: 'richtext raw' # richtext raw
+    f46d09fa-f3a8-4bdf-a162-0c3f0f70f520: 'text none' # text none
 plugins:
   ckeditor:
     edition: standard

@@ -7,23 +7,82 @@ scope:
   - 'elements.revisions:read'
   - 'elements.inactive:read'
   - 'sections.d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91:read' # test Channel Section
-  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:read' # test rich Editor FullData
-  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:read' # test rich Editor NonFull Data
-  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:read' # test Matrix
+  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:read'
+  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:read'
+  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:read'
   - 'usergroups.solo:read'
   - 'sections.d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91:edit' # test Channel Section
   - 'sections.d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91:create' # test Channel Section
   - 'sections.d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91:save' # test Channel Section
   - 'sections.d2ec61eb-0d88-4c0b-9aed-8f7303b2cc91:delete' # test Channel Section
-  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:edit' # test rich Editor FullData
-  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:create' # test rich Editor FullData
-  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:save' # test rich Editor FullData
-  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:delete' # test rich Editor FullData
-  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:edit' # test rich Editor NonFull Data
-  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:create' # test rich Editor NonFull Data
-  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:save' # test rich Editor NonFull Data
-  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:delete' # test rich Editor NonFull Data
-  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:edit' # test Matrix
-  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:create' # test Matrix
-  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:save' # test Matrix
-  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:delete' # test Matrix
+  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:edit'
+  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:create'
+  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:save'
+  - 'nestedentryfields.a2df6d4d-e207-45c3-98bc-c71da8738c1e:delete'
+  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:edit'
+  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:create'
+  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:save'
+  - 'nestedentryfields.b6e7170d-fb64-4551-b12a-f5ebf85080bd:delete'
+  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:edit'
+  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:create'
+  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:save'
+  - 'nestedentryfields.0417f0f0-3429-4c5b-b71c-02bbcb2d4545:delete'
+  - 'sections.a8602698-815a-4e98-aac9-8cf009fe660c:read' # tt section
+  - 'sections.a8602698-815a-4e98-aac9-8cf009fe660c:edit' # tt section
+  - 'sections.a8602698-815a-4e98-aac9-8cf009fe660c:create' # tt section
+  - 'sections.a8602698-815a-4e98-aac9-8cf009fe660c:save' # tt section
+  - 'sections.a8602698-815a-4e98-aac9-8cf009fe660c:delete' # tt section
+  - 'nestedentryfields.9f74951e-83a0-49c1-8346-138048cf500d:read'
+  - 'nestedentryfields.9f74951e-83a0-49c1-8346-138048cf500d:edit'
+  - 'nestedentryfields.9f74951e-83a0-49c1-8346-138048cf500d:create'
+  - 'nestedentryfields.9f74951e-83a0-49c1-8346-138048cf500d:save'
+  - 'nestedentryfields.9f74951e-83a0-49c1-8346-138048cf500d:delete'
+  - 'nestedentryfields.d3bedc4f-bb6e-4ab7-ad90-95923fa2ed7e:read'
+  - 'nestedentryfields.d3bedc4f-bb6e-4ab7-ad90-95923fa2ed7e:edit'
+  - 'nestedentryfields.d3bedc4f-bb6e-4ab7-ad90-95923fa2ed7e:create'
+  - 'nestedentryfields.d3bedc4f-bb6e-4ab7-ad90-95923fa2ed7e:save'
+  - 'nestedentryfields.d3bedc4f-bb6e-4ab7-ad90-95923fa2ed7e:delete'
+  - 'nestedentryfields.db7f4b64-1dcd-4732-b80b-1a01a5c65cae:read'
+  - 'nestedentryfields.db7f4b64-1dcd-4732-b80b-1a01a5c65cae:edit'
+  - 'nestedentryfields.db7f4b64-1dcd-4732-b80b-1a01a5c65cae:create'
+  - 'nestedentryfields.db7f4b64-1dcd-4732-b80b-1a01a5c65cae:save'
+  - 'nestedentryfields.db7f4b64-1dcd-4732-b80b-1a01a5c65cae:delete'
+  - 'nestedentryfields.c39c1b36-30e8-4705-b811-826bce050de5:read'
+  - 'nestedentryfields.c39c1b36-30e8-4705-b811-826bce050de5:edit'
+  - 'nestedentryfields.c39c1b36-30e8-4705-b811-826bce050de5:create'
+  - 'nestedentryfields.c39c1b36-30e8-4705-b811-826bce050de5:save'
+  - 'nestedentryfields.c39c1b36-30e8-4705-b811-826bce050de5:delete'
+  - 'nestedentryfields.3a04c368-0aaa-42c9-afa4-2a7aa4fb2d5c:read'
+  - 'nestedentryfields.3a04c368-0aaa-42c9-afa4-2a7aa4fb2d5c:edit'
+  - 'nestedentryfields.3a04c368-0aaa-42c9-afa4-2a7aa4fb2d5c:create'
+  - 'nestedentryfields.3a04c368-0aaa-42c9-afa4-2a7aa4fb2d5c:save'
+  - 'nestedentryfields.3a04c368-0aaa-42c9-afa4-2a7aa4fb2d5c:delete'
+  - 'nestedentryfields.e54f5b08-935c-4a25-b9a6-95c3113d31ac:read' # cb 1
+  - 'nestedentryfields.e54f5b08-935c-4a25-b9a6-95c3113d31ac:edit' # cb 1
+  - 'nestedentryfields.e54f5b08-935c-4a25-b9a6-95c3113d31ac:create' # cb 1
+  - 'nestedentryfields.e54f5b08-935c-4a25-b9a6-95c3113d31ac:save' # cb 1
+  - 'nestedentryfields.e54f5b08-935c-4a25-b9a6-95c3113d31ac:delete' # cb 1
+  - 'nestedentryfields.8a32ba6b-5159-440f-9067-35e73e7b7e6f:read' # matrix propAll
+  - 'nestedentryfields.8a32ba6b-5159-440f-9067-35e73e7b7e6f:edit' # matrix propAll
+  - 'nestedentryfields.8a32ba6b-5159-440f-9067-35e73e7b7e6f:create' # matrix propAll
+  - 'nestedentryfields.8a32ba6b-5159-440f-9067-35e73e7b7e6f:save' # matrix propAll
+  - 'nestedentryfields.8a32ba6b-5159-440f-9067-35e73e7b7e6f:delete' # matrix propAll
+  - 'nestedentryfields.bea06695-6c64-44ad-9323-7fe260755849:read' # matrix propNone
+  - 'nestedentryfields.bea06695-6c64-44ad-9323-7fe260755849:edit' # matrix propNone
+  - 'nestedentryfields.bea06695-6c64-44ad-9323-7fe260755849:create' # matrix propNone
+  - 'nestedentryfields.bea06695-6c64-44ad-9323-7fe260755849:save' # matrix propNone
+  - 'nestedentryfields.bea06695-6c64-44ad-9323-7fe260755849:delete' # matrix propNone
+  - 'nestedentryfields.e3cee61c-cd13-485f-9a2d-c41302713fab:read' # neo propAll
+  - 'nestedentryfields.e3cee61c-cd13-485f-9a2d-c41302713fab:edit' # neo propAll
+  - 'nestedentryfields.e3cee61c-cd13-485f-9a2d-c41302713fab:create' # neo propAll
+  - 'nestedentryfields.e3cee61c-cd13-485f-9a2d-c41302713fab:save' # neo propAll
+  - 'nestedentryfields.e3cee61c-cd13-485f-9a2d-c41302713fab:delete' # neo propAll
+  - 'nestedentryfields.6ca72484-88f8-4d39-98c3-804d88ec9e38:read' # neo propNone
+  - 'nestedentryfields.6ca72484-88f8-4d39-98c3-804d88ec9e38:edit' # neo propNone
+  - 'nestedentryfields.6ca72484-88f8-4d39-98c3-804d88ec9e38:create' # neo propNone
+  - 'nestedentryfields.6ca72484-88f8-4d39-98c3-804d88ec9e38:save' # neo propNone
+  - 'nestedentryfields.6ca72484-88f8-4d39-98c3-804d88ec9e38:delete' # neo propNone
+  - 'nestedentryfields.6d5da91b-f97b-4f15-b664-bc1e30ee549a:read' # richtext full
+  - 'nestedentryfields.f10f92d8-fab4-4f33-989b-241cc89c2e75:read' # richtext raw
+  - 'nestedentryfields.23998c97-074c-4d61-852a-0c583e35ab1a:read' # richtext full none
+  - 'nestedentryfields.b9e93a91-f408-4b66-8b43-f3769cc7804c:read' # richtext raw none
