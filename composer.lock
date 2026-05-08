@@ -6072,12 +6072,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/smartcatai/craftcms.git",
-                "reference": "1d972f3311757da011a1efb7ad974d0e7145360b"
+                "reference": "b9e05ae1e00646f0fa79fd12f9c697c1eeee026d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smartcatai/craftcms/zipball/1d972f3311757da011a1efb7ad974d0e7145360b",
-                "reference": "1d972f3311757da011a1efb7ad974d0e7145360b",
+                "url": "https://api.github.com/repos/smartcatai/craftcms/zipball/b9e05ae1e00646f0fa79fd12f9c697c1eeee026d",
+                "reference": "b9e05ae1e00646f0fa79fd12f9c697c1eeee026d",
                 "shasum": ""
             },
             "require": {
@@ -6123,7 +6123,7 @@
                 "issues": "https://github.com/smartcat/craft-smartcat-integration/issues",
                 "source": "https://github.com/smartcatai/craftcms/tree/main"
             },
-            "time": "2026-04-06T11:57:44+00:00"
+            "time": "2026-05-01T10:09:30+00:00"
         },
         {
             "name": "spicyweb/craft-neo",
@@ -10614,5 +10614,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }

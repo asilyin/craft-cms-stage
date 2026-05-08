@@ -24,6 +24,22 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2026-04-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: e1234567-89ab-4cde-8f01-234567890abc # cb 2
+            handle: layout
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a2222222-2222-4222-8222-222222222222
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: bfd298ab-f8b1-4322-a241-c6f015977b6e
         userCondition: null

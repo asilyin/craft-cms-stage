@@ -1,4 +1,4 @@
-dateModified: 1777554258
+dateModified: 1778247360
 email:
   fromEmail: a.ilyin@smartcat.ai
   fromName: SC-Stage
@@ -43,6 +43,7 @@ meta:
     e9c0b2c8-a82d-4ab0-945e-b6b666607e58: 'entry 5' # entry 5
     e54f5b08-935c-4a25-b9a6-95c3113d31ac: 'cb 1' # cb 1
     e25271fa-951d-467f-b4e1-191a39740e1c: 'entry 1' # entry 1
+    e1234567-89ab-4cde-8f01-234567890abc: 'cb 2' # cb 2
     f10f92d8-fab4-4f33-989b-241cc89c2e75: 'richtext raw' # richtext raw
     f46d09fa-f3a8-4bdf-a162-0c3f0f70f520: 'text none' # text none
 plugins:
