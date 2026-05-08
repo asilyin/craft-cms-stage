@@ -1,0 +1,70 @@
+columnSuffix: null
+handle: cb_2
+instructions: null
+name: 'cb 2'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - e1234567-89ab-4cde-8f01-234567890bbb
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    1:
+                      - uid
+                      - e1234567-89ab-4cde-8f01-234567890ccc
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-30T00:00:00+00:00'
+                            9:
+                              - uid
+                              - e1234567-89ab-4cde-8f01-234567890ddd
+                            12:
+                              - fieldUid
+                              - a0761fc1-d06e-401d-9fdb-6414967991f5 # text eachSite
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-04-30T00:00:00+00:00'
+                            9:
+                              - uid
+                              - e1234567-89ab-4cde-8f01-234567890eee
+                            12:
+                              - fieldUid
+                              - f46d09fa-f3a8-4bdf-a162-0c3f0f70f520 # text none
+            4:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock
