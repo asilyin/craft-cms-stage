@@ -1,4 +1,4 @@
-dateModified: 1778247360
+dateModified: 1778247362
 email:
   fromEmail: a.ilyin@smartcat.ai
   fromName: SC-Stage
@@ -29,6 +29,12 @@ meta:
     a0fe6f8b-961f-45c9-bd19-12261b781fa7: 'entry 3' # entry 3
     a0761fc1-d06e-401d-9fdb-6414967991f5: 'text eachSite' # text eachSite
     a8602698-815a-4e98-aac9-8cf009fe660c: 'tt section' # tt section
+    b1ec0eb1-1111-4111-aaaa-111111111111: 'banner eyebrow' # banner eyebrow
+    b1ec0eb1-2222-4222-aaaa-222222222222: Banner # Banner
+    b1ec0eb1-6666-4666-aaaa-666666666666: 'et neoBlock banner' # et neoBlock banner
+    b1ec0eb1-aaaa-4aaa-aaaa-aaaaaaaaaaaa: banner # banner
+    b13b13b1-1111-4111-aaaa-111111111111: 'link urlOnly' # link urlOnly
+    b13b13b1-2222-4222-aaaa-222222222222: 'entry b13' # entry b13
     ae217099-da20-47e6-a593-72c9ad730c87: 'neoBlock inline' # neoBlock inline
     b0a0150a-c6ef-4819-af68-a0bb1d91ce62: 'neoBlock 2' # neoBlock 2
     b9e93a91-f408-4b66-8b43-f3769cc7804c: 'richtext raw none' # richtext raw none

@@ -91,3 +91,13 @@ scope:
   - 'nestedentryfields.f10f92d8-fab4-4f33-989b-241cc89c2e75:read' # richtext raw
   - 'nestedentryfields.23998c97-074c-4d61-852a-0c583e35ab1a:read' # richtext full none
   - 'nestedentryfields.b9e93a91-f408-4b66-8b43-f3769cc7804c:read' # richtext raw none
+  - 'nestedentryfields.b1ec0eb1-1111-4111-aaaa-111111111111:read' # bannerEyebrow (B12)
+  - 'nestedentryfields.b1ec0eb1-1111-4111-aaaa-111111111111:edit' # bannerEyebrow (B12)
+  - 'nestedentryfields.b1ec0eb1-1111-4111-aaaa-111111111111:create' # bannerEyebrow (B12)
+  - 'nestedentryfields.b1ec0eb1-1111-4111-aaaa-111111111111:save' # bannerEyebrow (B12)
+  - 'nestedentryfields.b1ec0eb1-1111-4111-aaaa-111111111111:delete' # bannerEyebrow (B12)
+  - 'nestedentryfields.b13b13b1-1111-4111-aaaa-111111111111:read' # link_urlOnly (B13)
+  - 'nestedentryfields.b13b13b1-1111-4111-aaaa-111111111111:edit' # link_urlOnly (B13)
+  - 'nestedentryfields.b13b13b1-1111-4111-aaaa-111111111111:create' # link_urlOnly (B13)
+  - 'nestedentryfields.b13b13b1-1111-4111-aaaa-111111111111:save' # link_urlOnly (B13)
+  - 'nestedentryfields.b13b13b1-1111-4111-aaaa-111111111111:delete' # link_urlOnly (B13)

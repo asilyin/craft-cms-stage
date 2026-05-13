@@ -1,0 +1,48 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: b1ec0eb1-6666-4666-aaaa-666666666666 # et neoBlock banner
+field: e3cee61c-cd13-485f-9a2d-c41302713fab # neo propAll
+fieldLayouts:
+  b1ec0eb1-bbbb-4bbb-aaaa-bbbbbbbbbbbb:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a0761fc1-d06e-401d-9fdb-6414967991f5 # text eachSite
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1ec0eb1-cccc-4ccc-aaaa-cccccccccccc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b1ec0eb1-dddd-4ddd-aaaa-dddddddddddd
+        userCondition: null
+    thumbFieldKey: null
+group: null
+groupChildBlockTypes: true
+handle: banner
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: banner
+topLevel: true

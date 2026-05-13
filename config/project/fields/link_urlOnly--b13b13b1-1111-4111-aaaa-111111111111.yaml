@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: link_urlOnly
+instructions: null
+name: 'link urlOnly'
+searchable: false
+settings:
+  fullGraphqlData: false
+  maxLength: 500
+  showLabelField: false
+  typeSettings:
+    __assoc__:
+      -
+        - url
+        -
+          __assoc__:
+            -
+              - allowRootRelativeUrls
+              - ''
+            -
+              - allowAnchors
+              - ''
+            -
+              - allowCustomSchemes
+              - ''
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Link

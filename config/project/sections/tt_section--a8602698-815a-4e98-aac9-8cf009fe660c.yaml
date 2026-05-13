@@ -17,6 +17,10 @@ entryTypes:
     uid: 93efb17b-e67e-4a30-8d33-0b1db09880fc # entry 7
   -
     uid: 5860fec9-570a-42ae-9f5e-c5f7ac6e5a87 # entry 8
+  -
+    uid: b1ec0eb1-2222-4222-aaaa-222222222222 # Banner (B12 case-collision)
+  -
+    uid: b13b13b1-2222-4222-aaaa-222222222222 # entry_b13 (B13 link urlOnly)
 handle: tt_section
 maxAuthors: 1
 name: 'tt section'

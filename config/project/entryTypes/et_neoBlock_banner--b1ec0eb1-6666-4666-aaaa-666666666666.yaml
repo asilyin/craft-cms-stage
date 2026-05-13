@@ -1,0 +1,42 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  b1ec0eb1-7777-4777-aaaa-777777777777:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a0761fc1-d06e-401d-9fdb-6414967991f5 # text eachSite
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1ec0eb1-8888-4888-aaaa-888888888888
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b1ec0eb1-9999-4999-aaaa-999999999999
+        userCondition: null
+    thumbFieldKey: null
+handle: et_neoBlock_banner
+hasTitleField: false
+icon: null
+name: 'et neoBlock banner'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'
